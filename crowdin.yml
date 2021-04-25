@@ -1,0 +1,3 @@
+files:
+  - source: loca.properties
+    translation: /loca_%two_letters_code%.properties
