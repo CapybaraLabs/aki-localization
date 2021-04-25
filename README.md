@@ -1,3 +1,5 @@
+[![Crowdin](https://badges.crowdin.net/aki/localized.svg)](https://crowdin.com/project/aki)
+
 # Aki Translations Tips
 
 ### Arguments
