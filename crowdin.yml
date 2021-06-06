@@ -1,3 +1,7 @@
+project_id: 453002
+api_token_env: CROWDIN_API_TOKEN
 files:
   - source: loca.properties
     translation: /loca_%two_letters_code%.properties
+
+preserve_hierarchy: true
