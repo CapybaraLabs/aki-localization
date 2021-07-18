@@ -2,7 +2,9 @@
 
 # crowdin pull --all doesn't work, so lets spam the api:
 
-crowdin list languages --plain | xargs -t -I {} crowdin pull --skip-untranslated-strings -l {}
+crowdin list languages --plain \
+  | sed -z 's/\n\n.*/\n/g' \
+  | xargs -t -I {} crowdin pull --skip-untranslated-strings -l {}
 
 # crowdin API lies to us about the actualy names of some langs, so add them manually:
 
